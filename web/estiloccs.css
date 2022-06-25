@@ -1,0 +1,71 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+h1
+{
+    border:4px solid black;  /*indicamos el tipo de borde*/
+    height: 50px;  /*indicamos el alto del div*/
+    text-align: center; /*indicamos que el texto este alineado*/
+    margin: auto; /*esto es para centrar el encabezado*/
+    width: 70%; /*indicamos el ancho del encabezado*/
+    background-color: brown;  /*definimos el color del encabezado*/
+    font-weight: normal;  /*indica el grosor de letra*/
+    font-size: 40px; /*indicamos el tamaño de fuente*/
+    letter-spacing: 1px; /*indicamos el espacio entre las letras del titulo de encabezado*/
+    border-radius: 30px 30px; /*agregamos redondeo de esquinas*/
+}
+
+
+body{
+    font-family: Arial;
+    background-color: azure;
+}
+
+h1{
+     color: #fff;
+     text-align: center;
+}
+table
+{
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 60%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 280px;
+  margin-right: 400px;
+  font-family: Arial;
+
+}
+
+th
+{
+    background: gray;
+    color:white;
+}
+ td {
+   background: #eee;
+   width: auto;
+   text-align: justify;
+   border: 0.5px;
+   padding: 0.3em;
+   margin-left: 10px;
+ }
+
+footer
+{
+  background-color: gray; /*defimos color de fondo*/
+  height: 80px;  /*indicamos el alto del div*/
+  text-align: center; /*indicamos que el texto este alineado*/
+  margin: auto; /*esto es para centrar el encabezado*/
+  width: 70%; /*indicamos el ancho del encabezado*/
+  border-radius: 10px  20px; /*agregamos redondeo de esquinas*/
+  height: 90px; /*definimos un alto*/
+  padding: 20px; /*agregamos un espacio del contenido con respecto al borde*/
+  box-sizing: border-box; /*indicamos que el ancho especificado sea el equivalente al ancho total.*/
+  border:3px solid black; /*defimos el grosor del borde y el color*/
+  color: white; /*definimos el color de letra*/
+} 
